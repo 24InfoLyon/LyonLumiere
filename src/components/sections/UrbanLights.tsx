@@ -107,8 +107,8 @@ const UrbanLights: React.FC = () => {
             Carte Interactive des Illuminations
           </h3>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 flex items-center">
+            <div className="lg:col-span-2 container">
               <div className={`rounded-xl overflow-hidden h-96 ${
                 isNightMode ? 'shadow-lg shadow-blue-500/20' : 'shadow-md shadow-blue-200'
               }`}>
