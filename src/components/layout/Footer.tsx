@@ -60,16 +60,13 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-medium mb-4">À propos</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-yellow-400 transition-colors">Office du Tourisme</a>
+                <a href="https://www.visiterlyon.com/" className="hover:text-yellow-400 transition-colors">Office du Tourisme</a>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-400 transition-colors">Fête des Lumières</a>
+                <a href="https://www.visiterlyon.com/sortir/l-agenda/festivals/fete-des-lumieres" className="hover:text-yellow-400 transition-colors">Fête des Lumières</a>
               </li>
               <li>
-                <a href="#" className="hover:text-yellow-400 transition-colors">Institut Lumière</a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-yellow-400 transition-colors">Contact</a>
+                <a href="https://www.institut-lumiere.org/" className="hover:text-yellow-400 transition-colors">Institut Lumière</a>
               </li>
             </ul>
           </div>
