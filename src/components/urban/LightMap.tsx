@@ -21,7 +21,7 @@ const LightMap: React.FC<LightMapProps> = ({ events, selectedEvent, setSelectedE
     <div className="relative w-full h-full bg-cover bg-center"
       style={{ 
         backgroundImage: `url(${isNightMode 
-          ? 'https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+          ? 'src/image/maps.png'
           : 'https://images.pexels.com/photos/3757136/pexels-photo-3757136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
         })` 
       }}

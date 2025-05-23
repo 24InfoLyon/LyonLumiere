@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
           isNightMode ? 'opacity-100' : 'opacity-0'
         }`}
         style={{ 
-          backgroundImage: 'url(https://images.pexels.com/photos/3573382/pexels-photo-3573382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)' 
+          backgroundImage: 'url(src/image/LyonJour.webp)'
         }}
       ></div>
       
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           isNightMode ? 'opacity-0' : 'opacity-100'
         }`}
         style={{ 
-          backgroundImage: 'url(https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)' 
+          backgroundImage: 'url(src/image/LyonNuit.png)'
         }}
       ></div>
       

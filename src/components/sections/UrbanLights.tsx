@@ -9,28 +9,28 @@ const events = [
     title: 'Place des Terreaux',
     description: 'La Place des Terreaux accueille l\'une des installations les plus emblématiques de la Fête des Lumières, avec des projections monumentales sur l\'Hôtel de Ville et le Musée des Beaux-Arts.',
     image: 'https://images.pexels.com/photos/1604144/pexels-photo-1604144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    coordinates: [45.7677, 4.8329]
+    coordinates: [45.765, 4.8650]
   },
   {
     id: 2,
     title: 'Cathédrale Saint-Jean',
     description: 'La façade de la cathédrale s\'illumine de milliers de couleurs lors d\'un spectacle son et lumière qui retrace l\'histoire de Lyon.',
     image: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    coordinates: [45.7608, 4.8272]
+    coordinates: [45.77, 4.8732]
   },
   {
     id: 3,
     title: 'Parc de la Tête d\'Or',
     description: 'Le parc se transforme en un monde féérique avec des installations lumineuses interactives dispersées le long des chemins et autour du lac.',
     image: 'https://images.pexels.com/photos/943907/pexels-photo-943907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    coordinates: [45.7732, 4.8558]
+    coordinates: [45.753, 4.829]
   },
   {
     id: 4,
     title: 'Place Bellecour',
     description: 'La plus grande place piétonne d\'Europe devient une scène à ciel ouvert pour des spectacles de lumière et des installations artistiques.',
     image: 'https://images.pexels.com/photos/585758/pexels-photo-585758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    coordinates: [45.7578, 4.8320]
+    coordinates: [45.775, 4.8650]
   }
 ];
 
@@ -91,7 +91,7 @@ const UrbanLights: React.FC = () => {
           
           <div className={`rounded-xl overflow-hidden shadow-lg ${isNightMode ? 'shadow-blue-500/20' : 'shadow-blue-200'}`}>
             <img 
-              src="https://images.pexels.com/photos/13902323/pexels-photo-13902323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="src/image/basilique.jpg"
               alt="Fête des Lumières à Lyon" 
               className="w-full h-80 object-cover"
             />

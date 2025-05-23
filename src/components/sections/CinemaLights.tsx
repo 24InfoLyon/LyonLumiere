@@ -9,32 +9,32 @@ const timelineEvents = [
     year: 1895,
     title: "Le Cinématographe",
     description: "Auguste et Louis Lumière inventent le Cinématographe, un appareil révolutionnaire permettant de filmer et de projeter des images en mouvement.",
-    image: "https://images.pexels.com/photos/821738/pexels-photo-821738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    videoUrl: "https://archive.org/download/silent-film-sample/silent-film-sample.mp4"
+    image: "src/image/premieraparail.jpg",
+    videoUrl: "src/image/L'Invention du cinématographe.mp4"
   },
   {
     id: 2,
     year: 1895,
     title: "La Sortie de l'Usine Lumière à Lyon",
     description: "Premier film projeté publiquement par les frères Lumière, montrant les ouvriers quittant leur usine de Lyon.",
-    image: "https://images.pexels.com/photos/6201195/pexels-photo-6201195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    videoUrl: "https://archive.org/download/silent-film-sample/silent-film-sample.mp4"
+    image: "src/image/premierfilm.jpg",
+    videoUrl: "src/image/The first film ever made by les frères Lumière - Sortie des Usines Lumière à Lyon-18 (1985).mp4"
   },
   {
     id: 3,
     year: 1896,
     title: "L'Arrivée d'un train en gare de La Ciotat",
     description: "Ce film célèbre aurait provoqué la panique lors de sa projection, les spectateurs croyant que le train allait sortir de l'écran.",
-    image: "https://images.pexels.com/photos/724921/pexels-photo-724921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    videoUrl: "https://archive.org/download/silent-film-sample/silent-film-sample.mp4"
+    image: "src/image/arrivee-d-un-train-en-gare.jpg",
+    videoUrl: "src/image/videoplayback.mp4"
   },
   {
     id: 4,
     year: 1902,
     title: "Le Voyage dans la Lune",
     description: "Réalisé par Georges Méliès, ce film pionnier du cinéma fantastique a été inspiré par les avancées techniques des frères Lumière.",
-    image: "https://images.pexels.com/photos/5273641/pexels-photo-5273641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    videoUrl: "https://archive.org/download/silent-film-sample/silent-film-sample.mp4"
+    image: "src/image/georges-melies-cineaste-voyage-lune-histoire-magie-films-paris-zigzag-romane-fraysse-6.webp",
+    videoUrl: "src/image/_Le Voyage dans la lune_ (1902) en couleur.mp4"
   }
 ];
 
@@ -67,7 +67,7 @@ const CinemaLights: React.FC = () => {
             isNightMode ? 'shadow-amber-500/20' : 'shadow-amber-200'
           }`}>
             <img 
-              src="https://images.pexels.com/photos/6635323/pexels-photo-6635323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="src/image/projLumiere.jpg"
               alt="Les frères Lumière" 
               className="w-full h-80 object-cover"
             />
