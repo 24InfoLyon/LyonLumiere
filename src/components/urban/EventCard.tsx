@@ -39,7 +39,7 @@ const EventCard: React.FC<EventCardProps> = ({ event, isSelected, onClick, isNig
           }`}>
             {event.title}
           </h4>
-          <p className={`text-sm line-clamp-2 ${
+          <p className={`text-sm ${
             isNightMode ? 'text-blue-200' : 'text-blue-600'
           }`}>
             {event.description}
