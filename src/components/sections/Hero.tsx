@@ -3,7 +3,7 @@ import { useTheme } from '../../contexts/ThemeContext';
 import { ChevronDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
-  const { isNightMode } = useTheme();
+  const { isNightMode, toggleNightMode } = useTheme();
   const titleRef = useRef<HTMLHeadingElement>(null);
   
   // Add animation effect on load
@@ -62,11 +62,12 @@ const Hero: React.FC = () => {
           >
             Commencer le voyage
           </a>
-          <a 
+          <a
+            onClick={toggleNightMode}
             href="#about" 
             className="px-8 py-3 bg-transparent border border-white/30 rounded-full hover:bg-white/10 transition-colors"
           >
-            En savoir plus
+            {isNightMode ? "Eteindre" : "Allumer"} les lumières
           </a>
         </div>
       </div>

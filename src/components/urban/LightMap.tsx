@@ -20,15 +20,9 @@ const LightMap: React.FC<LightMapProps> = ({ events, selectedEvent, setSelectedE
   return (
     <div className="relative w-full h-full bg-cover bg-center"
       style={{ 
-        backgroundImage: `url(${isNightMode 
-          ? 'src/image/maps.png'
-          : 'https://images.pexels.com/photos/3757136/pexels-photo-3757136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-        })` 
+        backgroundImage: `url(src/image/maps.png)`,
       }}
     >
-      {/* Map overlay */}
-      <div className={`absolute inset-0 ${isNightMode ? 'bg-blue-900/60' : 'bg-white/30'}`}></div>
-      
       {/* Points of interest */}
       {events.map((event) => {
         // Convert geographic coordinates to relative positions within the container

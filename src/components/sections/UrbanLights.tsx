@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useTheme } from '../../contexts/ThemeContext';
+import React, {useState} from 'react';
+import {useTheme} from '../../contexts/ThemeContext';
 import LightMap from '../urban/LightMap';
 import EventCard from '../urban/EventCard';
 
@@ -66,27 +66,29 @@ const UrbanLights: React.FC = () => {
               La Fête des Lumières
             </h3>
             <p className={`mb-6 ${isNightMode ? 'text-blue-200' : 'text-blue-700'}`}>
-              Chaque année en décembre, Lyon s'illumine pendant quatre nuits magiques. 
-              Cette tradition, née en 1852, est devenue un événement international 
-              qui attire plus de 2 millions de visiteurs.
+              Chaque année en décembre, Lyon s’illumine pendant quatre nuits magiques, plongeant la ville dans une
+              ambiance féerique et chaleureuse.
             </p>
             <p className={`mb-6 ${isNightMode ? 'text-blue-200' : 'text-blue-700'}`}>
-              Les artistes du monde entier transforment les bâtiments, places et parcs de Lyon 
-              en œuvres d'art lumineuses, créant une atmosphère féerique à travers toute la ville.
+              Cette tradition, née en 1852 à l’occasion de l’inauguration de la statue
+              de la Vierge Marie sur la colline de Fourvière, s’est transformée au fil du temps en un événement
+              international incontournable.
             </p>
-            <a 
-              href="#"
-              className={`inline-flex items-center font-medium transition-colors ${
-                isNightMode 
-                  ? 'text-yellow-400 hover:text-yellow-300' 
-                  : 'text-blue-600 hover:text-blue-800'
-              }`}
-            >
-              En savoir plus sur l'histoire de la fête
-              <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
-              </svg>
-            </a>
+            <p className={`mb-6 ${isNightMode ? 'text-blue-200' : 'text-blue-700'}`}>
+              Aujourd’hui, la Fête des Lumières attire plus de 2 millions de visiteurs
+              venus du monde entier pour admirer la métamorphose nocturne de la ville.
+            </p>
+            <p className={`mb-6 ${isNightMode ? 'text-blue-200' : 'text-blue-700'}`}>
+              Durant ces soirées exceptionnelles, des artistes de renommée internationale investissent les rues, les
+              bâtiments historiques, les places emblématiques et les parcs de Lyon.
+              Grâce à des installations lumineuses innovantes, des projections monumentales et des spectacles interactifs, ils transforment chaque recoin de
+              la ville en une véritable œuvre d’art éphémère.
+            </p>
+            <p className={`mb-6 ${isNightMode ? 'text-blue-200' : 'text-blue-700'}`}>
+              Les habitants et les visiteurs déambulent émerveillés,
+              découvrant une Lyon sublimée par la lumière, où la créativité et la poésie s’invitent à chaque coin de
+              rue, créant une atmosphère unique et inoubliable.
+            </p>
           </div>
           
           <div className={`rounded-xl overflow-hidden shadow-lg ${isNightMode ? 'shadow-blue-500/20' : 'shadow-blue-200'}`}>
