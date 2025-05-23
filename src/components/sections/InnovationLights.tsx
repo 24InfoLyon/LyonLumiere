@@ -9,7 +9,7 @@ const innovators = [
     name: "Les Frères Lumière",
     title: "Inventeurs du Cinématographe",
     description: "Auguste et Louis Lumière n'ont pas seulement inventé le cinéma, mais ont également contribué à la photographie couleur avec l'Autochrome Lumière.",
-    image: "https://images.pexels.com/photos/6635323/pexels-photo-6635323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "src/image/5edeb7c304e6f_m1axanciennes005708.jpg",
     achievement: "Premier appareil permettant d'enregistrer et de projeter des images en mouvement (1895)"
   },
   {
@@ -17,7 +17,7 @@ const innovators = [
     name: "Joseph-Marie Jacquard",
     title: "Inventeur du Métier à Tisser Programmable",
     description: "Né à Lyon, Jacquard a révolutionné l'industrie textile avec son métier à tisser utilisant des cartes perforées, précurseur de l'informatique moderne.",
-    image: "https://images.pexels.com/photos/6407543/pexels-photo-6407543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "src/image/Joseph_marie_jacquard.jpg",
     achievement: "Métier Jacquard utilisant des cartes perforées (1801)"
   },
   {
@@ -25,7 +25,7 @@ const innovators = [
     name: "Claude Bourgelat",
     title: "Fondateur de la Première École Vétérinaire",
     description: "Pionnier de la médecine vétérinaire moderne, il a fondé à Lyon la première école vétérinaire au monde, établissant cette discipline comme science.",
-    image: "https://images.pexels.com/photos/2067062/pexels-photo-2067062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "src/image/Bourgelat.gif",
     achievement: "Fondation de l'École Nationale Vétérinaire de Lyon (1762)"
   }
 ];
@@ -92,7 +92,7 @@ const InnovationLights: React.FC = () => {
             isNightMode ? 'shadow-sky-500/20' : 'shadow-sky-200'
           }`}>
             <img 
-              src="https://images.pexels.com/photos/3825573/pexels-photo-3825573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+              src="src/image/310015.HR_.webp"
               alt="Innovation à Lyon" 
               className="w-full h-80 object-cover"
             />
