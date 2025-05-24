@@ -16,7 +16,7 @@ interface LightMapProps {
 }
 
 // This is a simplified map representation. In a real implementation, you would integrate with Mapbox or Leaflet
-const LightMap: React.FC<LightMapProps> = ({ events, selectedEvent, setSelectedEvent, isNightMode }) => {
+const LightMap: React.FC<LightMapProps> = ({ events, selectedEvent, setSelectedEvent }) => {
   return (
     <div className="relative w-full h-full bg-cover bg-center"
       style={{ 
